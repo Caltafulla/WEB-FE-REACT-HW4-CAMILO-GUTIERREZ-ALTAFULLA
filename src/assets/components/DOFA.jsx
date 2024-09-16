@@ -6,9 +6,9 @@ function DOFA({ content }) {
           key={category.id}
           className="bg-hfcolor w-2/5 mx-3 my-3 rounded-lg h-120"
         >
-          <h3 className="font-bold mb-1 mt-3 text-center justify-center text-txtcolor">
+          <h2 className="font-bold mb-1 mt-3 text-center justify-center text-txtcolor">
             {category.type}
-          </h3>
+          </h2>
           <ul>
             {category.items.map((item) => (
               <li
